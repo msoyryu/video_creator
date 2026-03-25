@@ -1,0 +1,10 @@
+# Temporary and Large Files
+**/audio/
+**/images/
+**/vrew_pack/
+final_video.mp4
+*.mp3
+*.wav
+*.m4a
+__pycache__/
+.env
