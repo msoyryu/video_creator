@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.0",
+  "style_prefix": "Cinematic Korean drama, 16:9 widescreen",
+  "character_lock": {
+    "jina": {
+      "morning": "Korean woman age 35, shoulder-length black hair, almond eyes, grey hoodie, round glasses"
+    }
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Test Scene",
+      "images": [
+        {
+          "filename": "01_test.jpg",
+          "characters": ["jina.morning"],
+          "prompt_en": "Sitting at a desk, typing on a laptop."
+        }
+      ]
+    }
+  ]
+}

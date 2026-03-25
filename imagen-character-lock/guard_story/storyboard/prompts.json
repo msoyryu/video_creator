@@ -1,0 +1,112 @@
+{
+  "schema_version": "2.0",
+  "style_prefix": "Cinematic high-quality realistic K-drama style, emotional lighting, soft focus background, high detail, 8k",
+  "character_lock": {
+    "mr_kim": {
+      "default": "Korean man, age 70, silver hair, kind wrinkles around eyes, weathered skin, 170cm height",
+      "guard": "Korean man, age 70, silver hair, kind wrinkles, navy blue security guard uniform with a soft cap, holding a flashlight",
+      "patient": "Korean man, age 70, silver hair, looking thinner and pale, wearing a light mint green hospital gown, sad and weary eyes"
+    },
+    "eun_seo": {
+      "default": "Korean woman, age 32, neat shoulder-length black hair, expressive big eyes with tears, wearing a cream-colored wool coat over a brown turtleneck"
+    }
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "YOU",
+      "images": [
+        {
+          "filename": "01_comfort.jpg",
+          "characters": ["mr_kim.guard"],
+          "prompt_en": "Nighttime patrol at a peaceful apartment complex. He is walking slowly with a flashlight, breath visible in the cold air. Warm streetlights in the background.",
+          "video_prompt": "A side-profile tracking shot of the elderly guard walking slowly. His breath forms a white mist in the cold air as the flashlight beam cuts through the dark, warm streetlights flickering in the background."
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "NEED",
+      "images": [
+        {
+          "filename": "02_need.jpg",
+          "characters": ["mr_kim.guard"],
+          "prompt_en": "Sitting in a small, dim security guard booth. He is looking at a very old, faded photograph of a little girl. Expressing deep loneliness and longing. Soft moonlight through the window.",
+          "video_prompt": "A close-up focusing on Mr. Kim's trembling hands as he gently strokes the faded photo. He looks up slowly toward the moonlit window with eyes full of longing and a deep sigh."
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "GO",
+      "images": [
+        {
+          "filename": "03_go.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "In a clinical hospital consultation room. A doctor is pointing at an X-ray on a monitor. Mr. Kim looks shocked and numb. Fluorescent lighting, cold atmosphere.",
+          "video_prompt": "The camera slowly zooms into Mr. Kim's stunned, frozen face as the doctor's hand moves across the flickering X-ray monitor in the background. A cold, heavy atmosphere."
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "SEARCH",
+      "images": [
+        {
+          "filename": "04_search.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "Lying on a hospital bed, staring out the window at the gray city sky. He has a resigned, lonely expression. There is an untouched meal tray next to the bed. Depressing mood.",
+          "video_prompt": "Mr. Kim slowly blinks as he stares at the gray clouds moving outside the hospital window. The steam from the untouched meal tray slowly stops rising as the room grows darker."
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "FIND",
+      "images": [
+        {
+          "filename": "05_find.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "The door to the hospital room is slightly open. A young woman is standing in the doorway, staring at him. Her eyes are brimming with tears. Mr. Kim looks confused at the stranger.",
+          "video_prompt": "The hospital door creaks open slowly. The young woman stands frozen, her shoulders shaking with silent sobs. Mr. Kim turns his head slowly, his expression shifting from resignation to confusion."
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "title": "TAKE",
+      "images": [
+        {
+          "filename": "06_take.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "The woman is now at his bedside, crying and holding her face. Mr. Kim's eyes are wide as he finally recognizes her. Overwhelming guilt and sadness on his face. Soft afternoon sunlight.",
+          "video_prompt": "The woman collapses onto the bedside, her hands gripping the sheets. Mr. Kim's eyes widen and begin to water as he finally whispers her name, his lips trembling with overwhelming emotion."
+        }
+      ]
+    },
+    {
+      "scene": 7,
+      "title": "RETURN",
+      "images": [
+        {
+          "filename": "07_return.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "Mr. Kim is holding the woman's hand tightly. He is looking up at a nurse, speaking with a look of new determination. The woman is wiping her tears, nodding.",
+          "video_prompt": "A close-up of their interlocked hands, gripping tighter. Mr. Kim looks up with a renewed fire in his eyes, nodding firmly as he makes the decision to live."
+        }
+      ]
+    },
+    {
+      "scene": 8,
+      "title": "CHANGE",
+      "images": [
+        {
+          "filename": "08_change.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "A bright, sunny morning in the hospital garden. Mr. Kim is sitting in a wheelchair, smiling warmly. The daughter is standing behind him, smiling while putting a blanket on his lap. Hopeful and peaceful atmosphere.",
+          "video_prompt": "A bright, sun-drenched wide shot. The daughter gently tucks a blanket around Mr. Kim as they both look at the blooming flowers. They both smile at each other, the camera slowly flying backward."
+        }
+      ]
+    }
+  ]
+}

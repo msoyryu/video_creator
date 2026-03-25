@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.0",
+  "style_prefix": "Cinematic high-quality realistic K-drama style, shallow depth of field, detailed textures, 8k resolution, emotional lighting",
+  "character_lock": {
+    "chairman": {
+      "default": "Korean man, age 73, receding salt-and-pepper hair, deep wrinkles around eyes and mouth, sharp but sorrowful eyes, wearing a charcoal wool three-piece suit, standing 175cm, dignified posture but slightly stooped",
+      "crisis": "Korean man, age 73, receding salt-and-pepper hair, sweat and soot on face, charcoal wool suit jacket removed, white dress shirt sleeves rolled up, determined and desperate expression"
+    },
+    "young_man": {
+      "default": "Korean man, age 25, clean-cut short black hair, kind and earnest eyes, slightly tanned skin, wearing a worn-out light blue denim shirt over a white t-shirt, athletic but lean build"
+    },
+    "son": {
+      "default": "Korean boy, age 10, bowl-cut black hair, bright smiling eyes, wearing a 90s style yellow striped polo shirt"
+    }
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "The Stopped Time",
+      "images": [
+        {
+          "filename": "01_stopped_clock.jpg",
+          "characters": ["chairman.default"],
+          "prompt_en": "Standing alone in a dark, luxurious study filled with books. He is staring at a large, ornate wooden grandfather clock that has stopped. Moody moonlight through the window. Cinematic side lighting.",
+          "video_prompt": "A continuous slow zoom towards the chairman's grieving face as the moonlight subtly shifts casting shadows."
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "The Encounter",
+      "images": [
+        {
+          "filename": "02_repair_shop.jpg",
+          "characters": ["chairman.default", "young_man.default"],
+          "prompt_en": "Inside a humble, cluttered clock repair workshop. The young man is holding a small tool, looking at the older man with respect. Dust motes dancing in the sunlight through a small window.",
+          "video_prompt": "The young man stops his work and looks up at the chairman with a respectful, warm smile as dust motes drift in the cinematic sunlight."
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "The Discovery",
+      "images": [
+        {
+          "filename": "03_watch_on_wrist.jpg",
+          "characters": ["chairman.default", "young_man.default"],
+          "prompt_en": "Extreme close-up of the young man's wrist. He is wearing a distinctive vintage silver wristwatch with a leather strap. The older man's hand is trembling nearby, reaching out but not touching. Shallow depth of field.",
+          "video_prompt": "The camera pans slowly across the vintage watch face as the light reflects off the silver case, the chairman's hand trembling slightly in the foreground."
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "Flashback",
+      "images": [
+        {
+          "filename": "04_flashback_park.jpg",
+          "characters": ["son.default"],
+          "prompt_en": "Flashback to 30 years ago. A sunny park. The young boy is holding the same silver wristwatch, showing it to someone off-camera with a big smile. Warm, nostalgic golden hour lighting. Film grain effect.",
+          "video_prompt": "The boy laughs and turns the watch to show the camera, bright sun flares across the screen in a nostalgic handheld film style."
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "The Crisis",
+      "images": [
+        {
+          "filename": "05_jumping_into_fire.jpg",
+          "characters": ["chairman.crisis"],
+          "prompt_en": "A smoke-filled room with orange fire glowing in the background. The older man is rushing forward, shielding his face with one arm, reaching for an old wooden box on a burning shelf. Intense action composition.",
+          "video_prompt": "Intense flickering flames in the background as the chairman moves through billows of smoke, his eyes focused and determined as he reaches for the box."
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "title": "The Miracle",
+      "images": [
+        {
+          "filename": "06_miracle_resolution.jpg",
+          "characters": ["chairman.default", "young_man.default"],
+          "prompt_en": "Back in the study. The grandfather clock's pendulum is finally swinging. The two men are standing side-by-side, looking at the clock. The older man has a single tear on his cheek, a faint smile. Peaceful morning light.",
+          "video_prompt": "The clock pendulum begins to swing rhythmically. A single tear rolls down the chairman's cheek as he looks at the young man, both sharing a moment of silent understanding."
+        }
+      ]
+    }
+  ]
+}

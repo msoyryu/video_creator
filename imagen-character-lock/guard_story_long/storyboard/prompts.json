@@ -1,0 +1,208 @@
+{
+  "schema_version": "2.0",
+  "style_prefix": "Cinematic high-quality realistic K-drama style, deep emotional lighting, detailed facial textures, 8k, bokeh background",
+  "character_lock": {
+    "mr_kim": {
+      "default": "Korean man, age 70, silver hair, kind wrinkles, weathered skin, 170cm height",
+      "guard": "Korean man, age 70, silver hair, kind wrinkles, navy blue security guard uniform with soft cap, holding a flashlight",
+      "patient": "Korean man, age 70, silver hair, looking thinner and pale, wearing a light mint green hospital gown, sad and weary eyes"
+    },
+    "eun_seo": {
+      "default": "Korean woman, age 32, neat shoulder-length black hair, expressive big eyes with tears, wearing a cream-colored wool coat over a brown turtleneck"
+    }
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "YOU",
+      "images": [
+        {
+          "id": "01_01",
+          "filename": "01_01_complex_night.jpg",
+          "characters": [],
+          "prompt_en": "Wide-angle landscape of a quiet, peaceful apartment complex at night. Dim warm streetlights, long shadows, a sense of solitude and stillness."
+        },
+        {
+          "id": "01_02",
+          "filename": "01_02_boots_walking.jpg",
+          "characters": ["mr_kim.guard"],
+          "prompt_en": "Low-angle close-up of worn-out black security guard boots walking slowly on asphalt. The guard uniform trousers are visible. Dim street lighting."
+        },
+        {
+          "id": "01_03",
+          "filename": "01_03_patrol_mist.jpg",
+          "characters": ["mr_kim.guard"],
+          "prompt_en": "Side-profile mid-shot of the guard checking a metal lock on a gate. His white breath is visible in the cold night air. The flashlight beam illuminates the lock."
+        }
+      ]
+    },
+    {
+      "scene": 2,
+      "title": "NEED",
+      "images": [
+        {
+          "id": "02_01",
+          "filename": "02_01_booth_interior.jpg",
+          "characters": ["mr_kim.guard"],
+          "prompt_en": "Inside a small, cramped security guard booth. Mr. Kim is sitting under a dim warm desk lamp, surrounded by monitors and old papers. Moody atmosphere."
+        },
+        {
+          "id": "02_02",
+          "filename": "02_02_hild_photo.jpg",
+          "characters": ["mr_kim.guard"],
+          "prompt_en": "Extreme close-up of a trembling hand holding a very old, faded, and slightly torn photograph of a laughing 10-year-old girl. High detail on the paper texture."
+        },
+        {
+          "id": "02_03",
+          "filename": "02_03_eyes_longing.jpg",
+          "characters": ["mr_kim.guard"],
+          "prompt_en": "Close-up of Mr. Kim's face, focusing on his wet, reflective eyes as he looks at the photo. The warm light from the lamp highlights his deep wrinkles."
+        }
+      ]
+    },
+    {
+      "scene": 3,
+      "title": "GO",
+      "images": [
+        {
+          "id": "03_01",
+          "filename": "03_01_hospital_hallway.jpg",
+          "characters": [],
+          "prompt_en": "A long, sterile, and cold hospital hallway with flickering fluorescent lights. The walls are pale and impersonal. A sense of unease."
+        },
+        {
+          "id": "03_02",
+          "filename": "03_02_xray_spot.jpg",
+          "characters": [],
+          "prompt_en": "Extreme close-up of a medical monitor showing a chest X-ray. A small, ominous dark spot is highlighted. Clinical and clean aesthetic."
+        },
+        {
+          "id": "03_03",
+          "filename": "03_03_shocked_room.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "In the consultation room. Mr. Kim, now in a patient gown, is sitting in front of a doctor (out of focus). His face is completely numb and shocked."
+        }
+      ]
+    },
+    {
+      "scene": 4,
+      "title": "SEARCH",
+      "images": [
+        {
+          "id": "04_01",
+          "filename": "04_01_window_stare.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "Wide shot of the hospital room. Mr. Kim is sitting alone on his bed, staring out of the large window at a gray, overcast city skyline. Deep solitude."
+        },
+        {
+          "id": "04_02",
+          "filename": "04_02_hand_on_glass.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "Close-up of a thin, wrinkled hand touching the cold glass of the window. Frost or condensation on the edges. Looking out at the world he is leaving."
+        },
+        {
+          "id": "04_03",
+          "filename": "04_03_meal_tray.jpg",
+          "characters": [],
+          "prompt_en": "A sterile metal meal tray with cold, untouched food sitting on a hospital table. The room is growing dark as evening approaches."
+        }
+      ]
+    },
+    {
+      "scene": 5,
+      "title": "FIND",
+      "images": [
+        {
+          "id": "05_01",
+          "filename": "05_01_door_creak.jpg",
+          "characters": [],
+          "prompt_en": "The hospital room door is opening slowly into the dark room, a beam of bright hallway light cutting across the floor. A silhouette appears."
+        },
+        {
+          "id": "05_02",
+          "filename": "05_02_woman_doorway.jpg",
+          "characters": ["eun_seo.default"],
+          "prompt_en": "Full-shot of the woman standing in the doorway. She looks beautiful but heartbroken, her shoulders shaking with silent sobs. Backlit by the hallway light."
+        },
+        {
+          "id": "05_03",
+          "filename": "05_03_perplexed_kim.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "Close-up of Mr. Kim turning his head toward the door. His expression is one of confusion and unrecognized familiarity. Deep shadows."
+        }
+      ]
+    },
+    {
+      "scene": 6,
+      "title": "TAKE",
+      "images": [
+        {
+          "id": "06_01",
+          "filename": "06_01_woman_running.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "The woman rushes to the side of the hospital bed, falling to her knees and grabbing the sheets. She is crying out in grief."
+        },
+        {
+          "id": "06_02",
+          "filename": "06_02_realization_face.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "Extreme close-up of Mr. Kim's face as the realization hits him. His eyes widen, and tears begin to flow down his wrinkled cheeks. Emotional peak."
+        },
+        {
+          "id": "06_03",
+          "filename": "06_03_reaching_hands.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "Tear-blurred shot of two hands reaching for each other. One old and withered, one young and soft. About to touch for the first time in 20 years."
+        }
+      ]
+    },
+    {
+      "scene": 7,
+      "title": "RETURN",
+      "images": [
+        {
+          "id": "07_01",
+          "filename": "07_01_holding_hands.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "Extreme close-up of their hands interlocked, gripping tightly. A sense of unbreakable connection and warmth."
+        },
+        {
+          "id": "07_02",
+          "filename": "07_02_determined_face.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "Mr. Kim looking up with a look of new determination and life in his eyes. He is speaking with strength, no longer resigned to death."
+        },
+        {
+          "id": "07_03",
+          "filename": "07_03_smiling_daughter.jpg",
+          "characters": ["eun_seo.default"],
+          "prompt_en": "The daughter is wiping her tears away, looking at her father with a hopeful smile. She is nodding in agreement."
+        }
+      ]
+    },
+    {
+      "scene": 8,
+      "title": "CHANGE",
+      "images": [
+        {
+          "id": "08_01",
+          "filename": "08_01_garden_sun.jpg",
+          "characters": [],
+          "prompt_en": "A wide, sun-drenched shot of the hospital garden in full bloom. Flowers, green trees, and a peaceful morning atmosphere. High key lighting."
+        },
+        {
+          "id": "08_02",
+          "filename": "08_02_happy_kim.jpg",
+          "characters": ["mr_kim.patient"],
+          "prompt_en": "Mr. Kim sitting in a wheelchair, looking at a bright yellow flower with a warm, peaceful smile. He looks healthier and full of life."
+        },
+        {
+          "id": "08_03",
+          "filename": "08_03_together_walk.jpg",
+          "characters": ["mr_kim.patient", "eun_seo.default"],
+          "prompt_en": "Wide shot of the daughter pushing Mr. Kim's wheelchair along a path in the garden, moving away from the camera. The light is shining behind them."
+        }
+      ]
+    }
+  ]
+}
